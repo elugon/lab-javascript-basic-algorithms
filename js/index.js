@@ -103,7 +103,7 @@ const ipsum="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis
 
 //Make your program count the number of words in the string.
 
-let ipsumDivided=ipsum.split(", ");
+let ipsumDivided=ipsum.split(",");
 let ipsumWithOutCommas="";
 
 for (let i=0; i<ipsumDivided.length;i++)
